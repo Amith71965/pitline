@@ -73,7 +73,7 @@ export default function Pipeline() {
       const st = ScrollTrigger.create({
         trigger: section,
         start: "top top",
-        end: "+=2600",
+        end: "+=1400",
         pin: section.querySelector(".pin-h"),
         scrub: true,
         onUpdate: (self) => paint(self.progress),
