@@ -40,6 +40,29 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# logs & caches
+logs/
+*.log
+.eslintcache
+.cache/
+.turbo/
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+
+# local scratch & temp
+tmp/
+scratch/
+*.local
+
 # agent workspace (local only, never committed)
 CLAUDE.md
 AGENTS.md
