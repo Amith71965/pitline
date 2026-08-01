@@ -71,7 +71,7 @@ export default function Tachometer() {
       const st = ScrollTrigger.create({
         trigger: section,
         start: "top top",
-        end: "+=2400",
+        end: "+=1300",
         pin: section.querySelector(".pin-h"),
         scrub: 0.6,
         onUpdate: (self) => setTach(tachProgressToMs(self.progress)),
