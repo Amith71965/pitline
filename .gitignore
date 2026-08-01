@@ -63,6 +63,9 @@ tmp/
 scratch/
 *.local
 
+# design handoff reference (local only)
+/design/
+
 # agent workspace (local only, never committed)
 CLAUDE.md
 AGENTS.md
